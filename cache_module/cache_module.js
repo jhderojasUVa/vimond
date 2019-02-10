@@ -8,7 +8,7 @@ class DataCache {
     // data = data of the cache
     this._cache = [];
 
-    this._cacheTime = 400000; // in miliseconds
+    this._cacheTime = 400000; // 40 in miliseconds
   }
 
   addToCache(url, data) {
