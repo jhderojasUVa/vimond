@@ -33,6 +33,8 @@ You will find this:
 ```
 Vimond Node Exercise 2019[17008].pdf = PDF where you can find the exercises
 Readme.md = This file! :)
+/cache_module = Directory where you can find the solution for the exercise 11 and 12
+  cache_module.js = Basic memory cache module
 /exercise_X = The directory where you will find the solution of an exercise
   app.js = The solution file
   app_X.js = If the exercise (like the 4) have parts, it's the solution of that part
@@ -81,3 +83,9 @@ But there's another "bad way" by creating an object with an emitter to put/find/
 That's why I say the/me idea of doing it.
 
 _Exercise 12_ it's nearly the same I say before or maybe I'm thinking about a full cache or something similar and, because of the question 11 (exercise) I think you are asking me to do it on the first way I thought, but, as always correct me if I'm wrong (I'm always wrong).
+
+## About exercises 11 and 12 (update)
+
+Excercise 4 have now a basic cache. I have created a module (in cache_modules) called "cache_module" where relays a basic server cache in memory.
+
+You can use it by the usual require way.
