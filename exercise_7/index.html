@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The page for sending a post :)</title>
+  </head>
+  <body>
+    <script>
+      var thePost = {
+        'userId': 1,
+        'title': 'Do not stop doing new things',
+        'completed': false
+      };
+
+      function DoThePost() {
+        fetch('http://localhost:8040/todo', {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(thePost)
+        })
+        .then((response) => {
+          console.log(response);
+        });
+      }
+    </script>
+    <h1>Fetcher!</h1>
+    <p>Push the button for do the fetch</p>
+    <button onclick="DoThePost()">click me!</button>
+  </body>
+</html>
