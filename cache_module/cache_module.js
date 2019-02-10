@@ -39,7 +39,8 @@ class DataCache {
         return this._cache[i];
       }
     }
-
+    // If not found..
+    return undefined;
   }
 
   checkCacheTime() {
