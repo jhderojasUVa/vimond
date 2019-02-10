@@ -35,6 +35,7 @@ class DataCache {
     for (let i = 0; i < this._cache.length; i++) {
       if (this._cache[i].url == url) {
         // if it's on cache, return the element
+        console.log('Cache data found for that URL!');
         return this._cache[i];
       }
     }
