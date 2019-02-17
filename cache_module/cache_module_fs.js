@@ -4,11 +4,16 @@ const fs = require('fs');
 
 class DataCache {
   constructor() {
-    // Cache elements
-    // date = on miliseconds
-    // url = url from where is the cache
-    // data = data of the cache
-    this._cache = [];
+    // Cache constructor
+    // We only need an internal cache time
+
+    // If I was smart I will put the "cache time" in miliseconds on the constructor...
+    // only if I was smart... it will be like
+    /*
+    constructor(time) {
+    this._cacheTime = time;
+    }
+    */
 
     this._cacheTime = 400000; // 40 in miliseconds
   }
