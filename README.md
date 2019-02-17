@@ -35,6 +35,7 @@ Vimond Node Exercise 2019[17008].pdf = PDF where you can find the exercises
 Readme.md = This file! :)
 /cache_module = Directory where you can find the solution for the exercise 11 and 12
   cache_module.js = Basic memory cache module
+  cache_module_fs.js = Disk cache module
 /exercise_X = The directory where you will find the solution of an exercise
   app.js = The solution file
   app_X.js = If the exercise (like the 4) have parts, it's the solution of that part
@@ -86,6 +87,8 @@ _Exercise 12_ it's nearly the same I say before or maybe I'm thinking about a fu
 
 ## About exercises 11 and 12 (update)
 
-Excercise 4 have now a basic cache. I have created a module (in cache_modules) called "cache_module" where relays a basic server cache in memory.
+Excercise 4 have now a basic cache (exercise 11). I have created a module (in cache_modules) called "cache_module" where relays a basic server cache in memory.
 
 You can use it by the usual require way.
+
+Finished file cache (exercise 12), but not tested. It's easy to see the way I have used.
