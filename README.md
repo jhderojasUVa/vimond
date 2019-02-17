@@ -92,3 +92,5 @@ Excercise 4 have now a basic cache (exercise 11). I have created a module (in ca
 You can use it by the usual require way.
 
 Finished file cache (exercise 12), but not tested. It's easy to see the way I have used.
+
+My idea of doing by event emmiters is very complex but it can be done... maybe it will be a great idea to do it too :)
